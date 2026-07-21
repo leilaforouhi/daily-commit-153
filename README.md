@@ -1,4 +1,4 @@
-def get_unique_word(text):
+def get_unique_words(text):
     words = text.lower().split()
     return sorted(set(words))
 
